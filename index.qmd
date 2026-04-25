@@ -1,0 +1,8 @@
+---
+title: "Sharing PhD study experiences"
+date: 2026-04-29
+---
+
+## Slides
+
+<a class="btn btn-success" target="_blank" href="slides/slides.pdf" role="button">{{< fa file-pdf >}} &ensp;Download PDF of all slides</a>
