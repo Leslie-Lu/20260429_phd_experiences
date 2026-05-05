@@ -5,4 +5,4 @@ date: 2026-04-29
 
 ## Slides
 
-<a class="btn btn-success" target="_blank" href="slides/slides.pdf" role="button">{{< fa file-pdf >}} &ensp;Download PDF of all slides</a>
+<a class="btn btn-success" target="_blank" href="slides/slides.pdf" role="button">{{< fa file-pdf >}} &ensp;Download PDF of all slides</a> <a class="btn btn-success" target="_blank" href="slides/bilingual_speech_script.pdf" role="button">{{< fa file-alt >}} &ensp;Download speech script of the presentation</a>

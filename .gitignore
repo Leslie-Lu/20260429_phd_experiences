@@ -16,6 +16,7 @@ assets/
 /*/deck_*.json
 /*/speaker_*.md
 /*/*.pptx
+**/*_script.md
 
 /_site/
 /.quarto/
