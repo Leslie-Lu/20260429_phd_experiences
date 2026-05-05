@@ -172,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<p><a class="btn btn-success" target="_blank" href="slides/slides.pdf" role="button"><i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i>  Download PDF of all slides</a></p>
+<p><a class="btn btn-success" target="_blank" href="slides/slides.pdf" role="button"><i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i>  Download PDF of all slides</a> <a class="btn btn-success" target="_blank" href="slides/bilingual_speech_script.pdf" role="button"><i class="fa-solid fa-file-alt" aria-label="file-alt"></i>  Download speech script of the presentation</a></p>
 
 
 </section>
@@ -251,7 +251,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/Leslie-Lu\.github\.io\/20260429_phd_experiences\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
