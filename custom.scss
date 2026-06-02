@@ -2,8 +2,8 @@
 
 $theme: "phd-experiences" !default;
 
-// Color system — mirrors main site (Westlake Blue)
-$white:    #ffffff !default;
+// Color system mirrors the main site (Westlake Blue).
+$white: #ffffff !default;
 $gray-100: #f8fafc !default;
 $gray-200: #e5e7eb !default;
 $gray-300: #d1d5db !default;
@@ -13,63 +13,60 @@ $gray-600: #4b5563 !default;
 $gray-700: #374151 !default;
 $gray-800: #1f2937 !default;
 $gray-900: #111827 !default;
-$black:    #000000 !default;
+$black: #000000 !default;
 
-$westlake-blue:       #003f87 !default;
-$westlake-blue-dark:  #002f65 !default;
-$westlake-blue-mid:   #0056b3 !default;
+$westlake-blue: #003f87 !default;
+$westlake-blue-dark: #002f65 !default;
+$westlake-blue-mid: #0056b3 !default;
 $westlake-blue-light: #96ccff !default;
-$westlake-blue-soft:  #eff6ff !default;
-$surface:       #ffffff !default;
+$westlake-blue-soft: #eff6ff !default;
+$surface: #ffffff !default;
 $surface-muted: #f8fafc !default;
-$text-main:  #1f2937 !default;
+$text-main: #1f2937 !default;
 $text-muted: #6b7280 !default;
 $accent-gold: #d97706 !default;
 
-$blue:   $westlake-blue !default;
+$blue: $westlake-blue !default;
 $indigo: #1e40af !default;
 $purple: $westlake-blue !default;
-$pink:   $westlake-blue !default;
-$red:    $westlake-blue !default;
+$pink: $westlake-blue !default;
+$red: $westlake-blue !default;
 $orange: $accent-gold !default;
 $yellow: #f59e0b !default;
-$green:  $westlake-blue !default;
-$teal:   $westlake-blue !default;
-$cyan:   $westlake-blue-light !default;
+$green: $westlake-blue !default;
+$teal: $westlake-blue !default;
+$cyan: $westlake-blue-light !default;
 
-$primary:   $westlake-blue !default;
+$primary: $westlake-blue !default;
 $secondary: $gray-700 !default;
-$success:   $westlake-blue !default;
-$info:      $cyan !default;
-$warning:   $accent-gold !default;
-$danger:    #b45309 !default;
-$light:     $gray-400 !default;
-$dark:      $black !default;
+$success: $westlake-blue !default;
+$info: $cyan !default;
+$warning: $accent-gold !default;
+$danger: #b45309 !default;
+$light: $gray-400 !default;
+$dark: $black !default;
 
 // Fonts
 $font-family-sans-serif: "PingFang ZhenLu", "PingFang SC", "PingFang HK", "PingFang TC", "Microsoft YaHei", "Inter", sans-serif !default;
-
 $headings-font-family: $font-family-sans-serif !default;
 $headings-font-weight: 600 !default;
-
 $navbar-font-family: $font-family-sans-serif !default;
 $footer-font-family: $font-family-sans-serif !default;
-
 $font-size-base: 1rem !default;
 $navbar-font-size: 0.95rem !default;
 
 // Body
-$body-bg:    $surface !default;
+$body-bg: $surface !default;
 $body-color: $text-main !default;
 
 // Links
-$link-color:            $westlake-blue !default;
-$link-decoration:       none !default;
-$link-hover-color:      $westlake-blue-dark !default;
+$link-color: $westlake-blue !default;
+$link-decoration: none !default;
+$link-hover-color: $westlake-blue-dark !default;
 $link-hover-decoration: underline !default;
 
 // Inline code
-$code-bg:    $gray-200 !default;
+$code-bg: $gray-200 !default;
 $code-color: $gray-900 !default;
 
 // Navbar
@@ -85,11 +82,10 @@ $footer-fg: $text-main !default;
 
 $web-font-path: null !default;
 
-// Load PingFang font from main site (absolute URL — works once main site is deployed with woff2 fonts)
 @font-face {
     font-family: "PingFang ZhenLu";
     src: url("https://leslie-lu.github.io/files/fonts/PingFang-SC-Regular.woff2") format("woff2");
-    font-display: swap;
+    font-display: block;
     font-style: normal;
     font-weight: 400;
 }
@@ -97,9 +93,14 @@ $web-font-path: null !default;
 @font-face {
     font-family: "PingFang ZhenLu";
     src: url("https://leslie-lu.github.io/files/fonts/PingFang-SC-Semibold.woff2") format("woff2");
-    font-display: swap;
+    font-display: block;
     font-style: normal;
     font-weight: 600 700;
+}
+
+html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
 }
 
 body {
@@ -116,26 +117,53 @@ body {
     background-color: $surface;
     border-bottom: 1px solid $gray-200;
     box-shadow: 0 4px 6px -1px rgba($westlake-blue, 0.10);
+    min-height: 3.75rem;
+
+    > .container-fluid {
+        align-items: center;
+        min-height: 3.75rem;
+    }
+
+    .navbar-brand-container,
+    .navbar-collapse,
+    .navbar-nav {
+        align-items: center;
+        min-height: 3.75rem;
+    }
+
+    .navbar-brand-container {
+        display: inline-flex;
+    }
 
     .navbar-brand,
     .nav-link {
+        align-items: center;
         border-radius: 0.375rem;
+        box-sizing: border-box;
         color: $gray-700;
+        display: inline-flex;
         font-size: $navbar-font-size;
         font-weight: 700;
         line-height: 1.35;
         margin: 0.1rem 0.15rem;
+        min-height: 2.35rem;
         padding: 0.45rem 0.85rem;
-        transition: background-color 0.2s ease, color 0.2s ease;
+        transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+        white-space: nowrap;
     }
 
     .navbar-brand {
         color: $westlake-blue;
+        cursor: default;
+        font-size: 1.08rem;
+        justify-content: center;
+        pointer-events: none;
     }
 
     .navbar-brand:hover {
-        background-color: $westlake-blue;
-        color: $white;
+        background-color: transparent;
+        box-shadow: none;
+        color: $westlake-blue;
         text-decoration: none;
     }
 
@@ -145,18 +173,50 @@ body {
         text-decoration: none;
     }
 
-    .nav-link.active {
+    .nav-link.active,
+    .navbar-nav .show > .nav-link {
         background-color: $westlake-blue;
+        box-shadow: 0 1px 2px rgba($westlake-blue, 0.16);
         color: $white;
         text-decoration: none;
+    }
+
+    .navbar-nav.navbar-nav-scroll.ms-auto .nav-link {
+        justify-content: center;
+        min-width: 2.35rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        width: 2.35rem;
     }
 
     .navbar-toggler {
         border-color: rgba($westlake-blue, 0.2);
     }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23003f87' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
 }
 
-h1, h2, h3, h4, h5, h6 {
+.navbar-nav.navbar-nav-scroll.ms-auto {
+    flex-direction: row;
+    gap: 0.2rem;
+}
+
+#title-block-header {
+    display: none;
+}
+
+#quarto-content {
+    padding-top: 0.75rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: $headings-font-family;
     font-weight: $headings-font-weight;
     color: $westlake-blue;
@@ -210,7 +270,6 @@ a {
     padding: 0.55rem 1rem;
 }
 
-// Page header — talk title & info
 .talk-header {
     border-left: 5px solid $westlake-blue;
     padding: 1em 1.25em;
@@ -244,11 +303,14 @@ a {
     }
 }
 
-// Footer
 .nav-footer {
     font-family: $footer-font-family;
     font-size: 0.85rem;
     color: $text-muted;
     border-top: 1px solid $gray-200;
     background-color: $surface;
+
+    a {
+        color: $westlake-blue;
+    }
 }

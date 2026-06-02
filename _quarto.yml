@@ -30,15 +30,14 @@ website:
       - href: index.qmd
         text: Home
     right:
-      - text: "Main site"
+      - icon: house
         href: "https://leslie-lu.github.io/"
-        icon: house
       - icon: github
         href: "https://github.com/Leslie-Lu/20260429_phd_experiences"
 
   page-footer:
     left: |
-      <span style="font-size:0.85rem;color:#6b7280;">© 2026 Zhen Lu · <a href="https://leslie-lu.github.io/" style="color:#003f87;">leslie-lu.github.io</a></span>
+      <span style="font-size:0.85rem;color:#6b7280;">&copy; 2026 Zhen Lu &middot; <a href="https://leslie-lu.github.io/" style="color:#003f87;">leslie-lu.github.io</a></span>
     right: |
       <span style="font-size:0.85rem;color:#6b7280;">Made with <a href="https://quarto.org/" style="color:#003f87;">Quarto</a></span>
 
