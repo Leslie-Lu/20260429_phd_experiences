@@ -2,15 +2,29 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sharing PhD study experiences",
+    "title": "Sharing PhD Study and Scholarship Application Experiences",
     "section": "",
-    "text": "Download PDF of all slides   Download speech script of the presentation"
+    "text": "← Back to talks · leslie-lu.github.io"
   },
   {
-    "objectID": "index.html#slides",
-    "href": "index.html#slides",
-    "title": "Sharing PhD study experiences",
-    "section": "",
-    "text": "Download PDF of all slides   Download speech script of the presentation"
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Sharing PhD Study and Scholarship Application Experiences",
+    "section": "Overview",
+    "text": "Overview\nThis talk was delivered as an invited session for graduate students at the School of Public Health (Shenzhen), Sun Yat-sen University. It covers practical experiences and reflections on:\n\nNavigating a PhD program in epidemiology and biostatistics\nApplying for domestic and international scholarships\nBalancing research, coursework, and personal growth\nLessons learned from the publication process"
+  },
+  {
+    "objectID": "index.html#downloads",
+    "href": "index.html#downloads",
+    "title": "Sharing PhD Study and Scholarship Application Experiences",
+    "section": "Downloads",
+    "text": "Downloads\n\n    Download slides (PDF)\n    Download bilingual speech script"
+  },
+  {
+    "objectID": "index.html#about-the-speaker",
+    "href": "index.html#about-the-speaker",
+    "title": "Sharing PhD Study and Scholarship Application Experiences",
+    "section": "About the Speaker",
+    "text": "About the Speaker\nZhen Lu is a PhD in Epidemiology and Biostatistics from Sun Yat-sen University. His research combines clinical epidemiology, biostatistics, and machine learning to address questions in infectious diseases, HPV infection, and cervical cancer prevention. He also maintains open-source tools for biostatistics and founded Biostat Weekly."
   }
 ]
