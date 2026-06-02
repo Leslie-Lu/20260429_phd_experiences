@@ -27,8 +27,12 @@ This talk was delivered as an invited session for graduate students at the Schoo
 
 ## Downloads
 
-<a class="btn btn-success" target="_blank" href="slides/slides.pdf" role="button">{{< fa file-pdf >}} &ensp;Download slides (PDF)</a>
-<a class="btn btn-success" target="_blank" href="slides/bilingual_speech_script.pdf" role="button" style="margin-left:0.5em;">{{< fa file-alt >}} &ensp;Download bilingual speech script</a>
+```{=html}
+<div class="download-actions">
+  <a class="btn btn-success companion-download" target="_blank" href="slides/slides.pdf" role="button">{{< fa file-pdf >}} &ensp;Download slides (PDF)</a>
+  <a class="btn btn-success companion-download" target="_blank" href="slides/bilingual_speech_script.pdf" role="button">{{< fa file-alt >}} &ensp;Download bilingual speech script</a>
+</div>
+```
 
 ## About the Speaker
 
