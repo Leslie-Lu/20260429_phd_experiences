@@ -3,21 +3,26 @@ project:
   render:
     - "*.qmd"
     - "!slides/"
-  resources: 
+  resources:
     - "slides/*.html"
     - "slides/*.pdf"
     - "slides/img/"
     - "slides/libs/"
     - "slides/css/"
     - "slides/*_files/"
-  preview: 
+  preview:
     port: 4444
 
-website:
-  title: "PhD Experiences Website"
+pagetitle: "{{< meta title >}} | Zhen Lu"
+author-meta: "Zhen Lu"
 
+website:
+  title: "Zhen Lu"
+  description: "Companion site for the talk: Sharing PhD study and scholarship application experiences"
+  site-url: "https://leslie-lu.github.io/20260429_phd_experiences/"
   repo-url: "https://github.com/Leslie-Lu/20260429_phd_experiences"
   repo-actions: [source, issue]
+  favicon: "https://leslie-lu.github.io/files/favicon-512.png"
 
   navbar:
     pinned: true
@@ -25,20 +30,30 @@ website:
       - href: index.qmd
         text: Home
     right:
+      - text: "Main site"
+        href: "https://leslie-lu.github.io/"
+        icon: house
       - icon: github
         href: "https://github.com/Leslie-Lu/20260429_phd_experiences"
 
-
-author:
-- name: Zhen Lu
-  url: "https://leslie-lu.github.io/"
-  affiliation: Sun Yat-sen University
-  email: luzh29@mail2.sysu.edu.cn
-  orcid: 0000-0002-3481-6310
+  page-footer:
+    left: |
+      <span style="font-size:0.85rem;color:#6b7280;">© 2026 Zhen Lu · <a href="https://leslie-lu.github.io/" style="color:#003f87;">leslie-lu.github.io</a></span>
+    right: |
+      <span style="font-size:0.85rem;color:#6b7280;">Made with <a href="https://quarto.org/" style="color:#003f87;">Quarto</a></span>
 
 format:
   html:
     theme:
-      - zephyr
-      - brand
+      - custom.scss
     toc: true
+    toc-depth: 2
+    anchor-sections: true
+    smooth-scroll: true
+
+author:
+  - name: Zhen Lu
+    url: "https://leslie-lu.github.io/"
+    affiliation: Sun Yat-sen University
+    email: luzh29@mail2.sysu.edu.cn
+    orcid: 0000-0002-3481-6310

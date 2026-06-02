@@ -1,8 +1,35 @@
 ---
-title: "Sharing PhD study experiences"
+title: "Sharing PhD Study and Scholarship Application Experiences"
 date: 2026-04-29
 ---
 
-## Slides
+```{=html}
+<p class="back-to-main"><a href="https://leslie-lu.github.io/talks/">← Back to talks · leslie-lu.github.io</a></p>
 
-<a class="btn btn-success" target="_blank" href="slides/slides.pdf" role="button">{{< fa file-pdf >}} &ensp;Download PDF of all slides</a> <a class="btn btn-success" target="_blank" href="slides/bilingual_speech_script.pdf" role="button">{{< fa file-alt >}} &ensp;Download speech script of the presentation</a>
+<div class="talk-header">
+  <p class="talk-title">Sharing PhD Study and Scholarship Application Experiences</p>
+  <p class="talk-meta">
+    <strong>Speaker:</strong> Zhen Lu &nbsp;·&nbsp;
+    <strong>Date:</strong> April 29, 2026 &nbsp;·&nbsp;
+    <strong>Venue:</strong> School of Public Health (Shenzhen), Sun Yat-sen University, Shenzhen, China
+  </p>
+</div>
+```
+
+## Overview
+
+This talk was delivered as an invited session for graduate students at the School of Public Health (Shenzhen), Sun Yat-sen University. It covers practical experiences and reflections on:
+
+- Navigating a PhD program in epidemiology and biostatistics
+- Applying for domestic and international scholarships
+- Balancing research, coursework, and personal growth
+- Lessons learned from the publication process
+
+## Downloads
+
+<a class="btn btn-success" target="_blank" href="slides/slides.pdf" role="button">{{< fa file-pdf >}} &ensp;Download slides (PDF)</a>
+<a class="btn btn-success" target="_blank" href="slides/bilingual_speech_script.pdf" role="button" style="margin-left:0.5em;">{{< fa file-alt >}} &ensp;Download bilingual speech script</a>
+
+## About the Speaker
+
+[Zhen Lu](https://leslie-lu.github.io/) is a PhD in Epidemiology and Biostatistics from Sun Yat-sen University. His research combines clinical epidemiology, biostatistics, and machine learning to address questions in infectious diseases, HPV infection, and cervical cancer prevention. He also maintains open-source tools for biostatistics and founded [Biostat Weekly](https://github.com/openbiostat/biostat-weekly).
