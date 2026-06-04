@@ -26,9 +26,6 @@ website:
 
   navbar:
     pinned: true
-    left:
-      - href: index.qmd
-        text: Home
     right:
       - icon: house
         href: "https://leslie-lu.github.io/"
