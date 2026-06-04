@@ -47,7 +47,7 @@ $light: $gray-400 !default;
 $dark: $black !default;
 
 // Fonts
-$font-family-sans-serif: "PingFang ZhenLu", "PingFang SC", "PingFang HK", "PingFang TC", "Microsoft YaHei", "Inter", sans-serif !default;
+$font-family-sans-serif: "PingFang SC", "PingFang HK", "PingFang TC", "Microsoft YaHei", "Inter", sans-serif !default;
 $headings-font-family: $font-family-sans-serif !default;
 $headings-font-weight: 600 !default;
 $navbar-font-family: $font-family-sans-serif !default;
@@ -81,22 +81,6 @@ $footer-fg: $text-main !default;
 /*-- scss:rules --*/
 
 $web-font-path: null !default;
-
-@font-face {
-    font-family: "PingFang ZhenLu";
-    src: url("https://leslie-lu.github.io/files/fonts/PingFang-SC-Regular.woff2") format("woff2");
-    font-display: block;
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "PingFang ZhenLu";
-    src: url("https://leslie-lu.github.io/files/fonts/PingFang-SC-Semibold.woff2") format("woff2");
-    font-display: block;
-    font-style: normal;
-    font-weight: 600 700;
-}
 
 html {
     overflow-y: scroll;
