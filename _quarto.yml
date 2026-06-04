@@ -4,6 +4,7 @@ project:
     - "*.qmd"
     - "!slides/"
   resources:
+    - "files/fonts/*.woff2"
     - "slides/*.html"
     - "slides/*.pdf"
     - "slides/img/"
